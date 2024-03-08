@@ -1,0 +1,12 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: io.moderne.sap.maven.UpgradeParentPom
+displayName: Upgrade the SAP Maven parent
+description: |
+  Upgrades to the latest patch version of the minor parent version that a project 
+  is currently on.
+recipeList:
+  - org.openrewrite.maven.UpgradeParentVersion:
+      # TODO change this to the desired group ID and artifact
+      groupId: *
+      artifactId: *
+      newVersion: latest.version

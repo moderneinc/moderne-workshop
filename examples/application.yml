@@ -1,0 +1,6 @@
+# Moderne understands property coalescence common
+# in Java frameworks that use YAML configuration
+spring.application.name: workshop
+---
+spring.application:
+  name: workshop
