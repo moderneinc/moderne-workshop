@@ -5,4 +5,4 @@ description: Finding a Spring property.
 recipeList:
   # this will match configuration in examples/application.yml
   - org.openrewrite.yaml.search.FindProperty:
-      propertyKey: management.metrics.binders.*.enabled
+      propertyKey: spring.application.*
