@@ -1,5 +1,5 @@
 ---
 type: specs.openrewrite.org/v1beta/category
-name: SAP
-packageName: io.moderne.sap
-description: Moderne SAP workshop
+name: Moderne workshop
+packageName: io.moderne.workshop
+description: Moderne workshop

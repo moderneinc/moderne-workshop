@@ -23,6 +23,7 @@ dependencies {
 
     runtimeOnly("org.openrewrite:rewrite-java-17")
     implementation("org.openrewrite:rewrite-java")
+    implementation("org.openrewrite:rewrite-json")
     implementation("org.openrewrite:rewrite-gradle")
     implementation("org.openrewrite:rewrite-maven")
     implementation("org.openrewrite:rewrite-xml")

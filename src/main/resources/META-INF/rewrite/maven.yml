@@ -1,6 +1,6 @@
 type: specs.openrewrite.org/v1beta/recipe
-name: io.moderne.sap.maven.UpgradeParentPom
-displayName: Upgrade the SAP Maven parent
+name: io.moderne.workshop.maven.UpgradeParentPom
+displayName: Upgrade the Maven parent
 description: |
   Upgrades to the latest patch version of the minor parent version that a project 
   is currently on.

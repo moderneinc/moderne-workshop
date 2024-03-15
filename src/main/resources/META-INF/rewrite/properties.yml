@@ -1,6 +1,6 @@
 ---
 type: specs.openrewrite.org/v1beta/recipe
-name: io.moderne.sap.properties.FindSpringProperty
+name: io.moderne.workshop.properties.FindSpringProperty
 description: Finding a Spring property.
 recipeList:
   # this will match configuration in examples/application.yml

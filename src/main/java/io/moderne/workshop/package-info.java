@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 @NonNullApi @NonNullFields
-package io.moderne.sap;
+package io.moderne.workshop;
 
 import org.openrewrite.internal.lang.NonNullApi;
 import org.openrewrite.internal.lang.NonNullFields;

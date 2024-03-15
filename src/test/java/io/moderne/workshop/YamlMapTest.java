@@ -1,4 +1,4 @@
-package io.moderne.sap;
+package io.moderne.workshop;
 
 import org.junit.jupiter.api.Test;
 import org.openrewrite.ExecutionContext;

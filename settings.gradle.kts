@@ -1,4 +1,4 @@
-rootProject.name = "sap-workshop"
+rootProject.name = "moderne-workshop"
 
 plugins {
     id("com.gradle.enterprise") version "3.16"
