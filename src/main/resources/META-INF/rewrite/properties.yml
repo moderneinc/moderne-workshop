@@ -6,3 +6,16 @@ recipeList:
   # this will match configuration in examples/application.yml
   - org.openrewrite.yaml.search.FindProperty:
       propertyKey: spring.application.*
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: com.sap.FindSpringAppName
+displayName: Find Spring application name
+description: Only in the main source set, in either YAML or properties.
+preconditions:
+  - org.openrewrite.java.search.HasSourceSet:
+      sourceSet: main
+recipeList:
+  - org.openrewrite.properties.search.FindProperties:
+      propertyKey: spring.application.*
+  - org.openrewrite.yaml.search.FindProperty:
+      propertyKey: spring.application.*
