@@ -88,9 +88,7 @@ public class FindSpringPropertyForVersions extends ScanningRecipe<AtomicBoolean>
                 if (tree != null) {
                     tree.getMarkers().findFirst(MavenResolutionResult.class)
                             .flatMap(mrr -> mrr.findDependencies("org.springframework", "spring-core", Scope.Runtime).stream()
-                                    .filter(dep -> {
-                                        return versionComparator.isValid(null, dep.getVersion());
-                                    })
+                                    .filter(dep -> versionComparator.isValid(null, dep.getVersion()))
                                     .findFirst())
                             .ifPresent(dep -> inRange.set(true));
                 }
